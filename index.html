@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake-Game</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-color: dodgerblue;
+        }
+        .container-master{
+            flex:1;
+            align-items: center;
+            justify-content: center;
+        }
+        canvas{
+        }
+        .container{
+            
+        }
+    </style>
+</head>
+<body>
+  <div class="container-master">
+      <h3 style="text-align: center;font-size: 25px;color:#f6f6f6">Snake Game</h3>
+      <div style="margin-left:35%;margin-right: 35%;">
+          <canvas height="400" width="400" id="can" style="background-color: black;"></canvas>
+        </div>
+      <div class="container" style="text-align: center;font-size: 25px;">
+          <h4 id="contact"></h4>
+          <h4 ><span>Score:</span><span id="score">0</span></h4>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
